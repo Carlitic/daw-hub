@@ -15,7 +15,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowRight, Shield, Server, Cpu, Wifi, BookOpen, Terminal, CheckCircle2, Database } from "lucide-react"
+import { ArrowRight, Shield, Server, Cpu, Wifi, Terminal, CheckCircle2, Database } from "lucide-react"
 import { Link } from "react-router-dom"
 
 export default function HomePage() {
