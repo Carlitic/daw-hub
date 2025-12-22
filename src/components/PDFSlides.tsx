@@ -41,6 +41,11 @@ export function PDFSlides({ url }: PDFSlidesProps) {
                 </div>
             </div>
 
+            {/* Mobile Hint */}
+            <p className="md:hidden text-xs text-amber-600 dark:text-amber-400 text-center animate-pulse">
+                📱 ¿En móvil? Mejor dale a <strong>"Abrir en nueva ventana"</strong> ↗️
+            </p>
+
             {/* Native Iframe Viewer - Most Reliable */}
             <div className="w-full h-[50vh] md:h-[800px] bg-gray-100 dark:bg-gray-900 border rounded-lg overflow-hidden relative">
                 <iframe
