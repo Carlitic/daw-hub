@@ -39,7 +39,7 @@ export default function HomePage() {
                     </h1>
 
                     <p className="max-w-2xl text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                        Domina el montaje de equipos, redes, seguridad y sistemas operativos.
+                        Domina el desarrollo web completo, bases de datos y despliegue de aplicaciones.
                         Una plataforma integral diseñada por y para estudiantes.
                     </p>
 
