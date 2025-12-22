@@ -17,7 +17,7 @@
 import { Link, Outlet, useLocation } from "react-router-dom"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Button } from "@/components/ui/button"
-import { Monitor, LogOut, User as UserIcon, Github } from "lucide-react"
+import { LogOut, User as UserIcon, Github, Code2 } from "lucide-react"
 import { useAuth } from "@/components/auth-provider"
 import { motion, AnimatePresence } from "framer-motion"
 import {
@@ -38,7 +38,7 @@ export function Layout() {
             <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
                 <div className="container flex h-16 max-w-screen-2xl items-center">
                     <Link to="/" className="mr-8 flex items-center space-x-2">
-                        <Monitor className="h-6 w-6 text-primary" />
+                        <Code2 className="h-6 w-6 text-primary" />
                         <span className="hidden font-bold sm:inline-block bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
                             DAW-Hub
                         </span>
