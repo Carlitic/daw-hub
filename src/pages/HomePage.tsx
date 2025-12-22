@@ -136,12 +136,12 @@ export default function HomePage() {
 
                         <Card className="group border shadow-sm hover:shadow-md transition-all cursor-default bg-card">
                             <CardHeader>
-                                <BookOpen className="h-8 w-8 text-orange-500 mb-3 group-hover:scale-110 transition-transform" />
-                                <CardTitle className="text-xl">Empresa</CardTitle>
-                                <CardDescription>EIE y FOL</CardDescription>
+                                <Database className="h-8 w-8 text-purple-500 mb-3 group-hover:scale-110 transition-transform" />
+                                <CardTitle className="text-xl">Bases de Datos</CardTitle>
+                                <CardDescription>SQL y NoSQL</CardDescription>
                             </CardHeader>
                             <CardContent className="text-sm text-muted-foreground">
-                                Formación y orientación laboral, creación de empresas y emprendimiento.
+                                Diseño, gestión y optimización de bases de datos relacionales y no relacionales.
                             </CardContent>
                         </Card>
 
