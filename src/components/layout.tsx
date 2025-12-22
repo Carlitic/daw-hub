@@ -43,7 +43,7 @@ export function Layout() {
                             DAW-Hub
                         </span>
                     </Link>
-                    <nav className="flex items-center space-x-6 text-sm font-medium">
+                    <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
                         <Link
                             to="/"
                             className="transition-colors hover:text-primary text-foreground/80"
