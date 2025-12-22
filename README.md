@@ -22,7 +22,7 @@ Plataforma educativa interactiva para el Ciclo Formativo de **Desarrollo de Apli
 *   **Frontend**: React + TypeScript + Vite
 *   **Estilos**: Tailwind CSS + Shadcn/UI
 *   **Base de Datos y Auth**: Supabase
-*   **Despliegue**: Cloudflare Pages
+*   **Despliegue**: GitHub Pages
 *   **Animaciones**: Framer Motion
 
 ## 📦 Instalación Local
