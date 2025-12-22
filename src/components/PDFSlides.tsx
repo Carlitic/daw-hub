@@ -42,7 +42,7 @@ export function PDFSlides({ url }: PDFSlidesProps) {
             </div>
 
             {/* Native Iframe Viewer - Most Reliable */}
-            <div className="w-full h-[800px] bg-gray-100 dark:bg-gray-900 border rounded-lg overflow-hidden relative">
+            <div className="w-full h-[50vh] md:h-[800px] bg-gray-100 dark:bg-gray-900 border rounded-lg overflow-hidden relative">
                 <iframe
                     src={`${url}#toolbar=0`}
                     className="w-full h-full"
